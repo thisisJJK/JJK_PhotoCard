@@ -3,7 +3,6 @@ import 'package:jjk_photo/screen/home_scrren.dart';
 
 void main() {
   runApp(JJK_Photo());
-  print("1");
 }
 
 class JJK_Photo extends StatelessWidget {
@@ -12,7 +11,7 @@ class JJK_Photo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     );
   }
